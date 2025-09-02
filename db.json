@@ -1,0 +1,36 @@
+{
+  "properties": [],
+  "employees": [
+    {
+      "id": 1,
+      "name": "Ishwar Chawla",
+      "role": "Marketing Executive",
+      "permissions": ["read", "write"]
+    }
+  ],
+  "payments": [
+    {
+      "id": 1,
+      "property": "Apt #12, Kreuzberg",
+      "tenant": "Lena K.",
+      "amount": 1200,
+      "type": "Bank Transfer",
+      "reviewed": false
+    }
+  ],
+  "queries": [
+    {
+      "id": 1,
+      "tenant": "Priya N.",
+      "issue": "Heating not working",
+      "status": "Pending"
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Call plumber for Apt #12",
+      "done": false
+    }
+  ]
+}
