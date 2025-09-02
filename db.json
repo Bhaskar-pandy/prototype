@@ -1,36 +1,11 @@
 {
-  "properties": [],
+  "properties": [
+    { "id": 1, "name": "Apt #05", "district": "Mitte", "rooms": 2, "rent": 1450 }
+  ],
   "employees": [
-    {
-      "id": 1,
-      "name": "Ishwar Chawla",
-      "role": "Marketing Executive",
-      "permissions": ["read", "write"]
-    }
+    { "id": 1, "name": "Ishwar Chawla", "role": "Marketing Executive", "permissions": ["read","write"] }
   ],
-  "payments": [
-    {
-      "id": 1,
-      "property": "Apt #12, Kreuzberg",
-      "tenant": "Lena K.",
-      "amount": 1200,
-      "type": "Bank Transfer",
-      "reviewed": false
-    }
-  ],
-  "queries": [
-    {
-      "id": 1,
-      "tenant": "Priya N.",
-      "issue": "Heating not working",
-      "status": "Pending"
-    }
-  ],
-  "tasks": [
-    {
-      "id": 1,
-      "title": "Call plumber for Apt #12",
-      "done": false
-    }
-  ]
+  "payments": [],
+  "queries": [],
+  "tasks": []
 }
